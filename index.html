@@ -1,0 +1,326 @@
+<!--
+ -
+ - @AUTHOR: brian_didierjean - contact@briandidierjean.dev
+ -
+ -->
+
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>WebAgency : L'agence de tous vos projets !</title>
+  <meta name="description" content="Vous avez un projet web ? La WebAgency vous aide à le réaliser !">
+  <meta name="robots" content="none">
+
+  <!--==================================
+  =            TWITTER CARD            =
+  ===================================-->
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:url" content="https://project1-jwd-oc.briandidierjean.dev">
+  <meta name="twitter:image" content="https://project1-jwd-oc.briandidierjean.dev/images/og-main-feature.png">
+  <meta name="twitter:title" content="WebAgency : L'agence de tous vos projets !">
+  <meta name="twitter:description" content="Vous avez un projet web ? La WebAgency vous aide à le réaliser !">
+  
+  <!--====  End of TWITTER CARD  ====-->
+
+
+  <!--================================
+  =            OPEN GRAPH            =
+  =================================-->
+  
+  <meta property="og:title" content="WebAgency : L'agence de tous vos projets !">
+  <meta property="og:url" content="https://project1-jwd-oc.briandidierjean.dev">
+  <meta property="og:description" content="Vous avez un projet web ? La WebAgency vous aide à le réaliser !">
+  <meta property="og:image" content="https://project1-jwd-oc.briandidierjean.dev/images/og-main-feature.png">
+  <meta property="og:image:width" content="481">
+  <meta property="og:image:height" content="301">
+  <meta property="og:type" content="website">
+  
+  <!--====  End of OPEN GRAPH  ====-->
+  
+
+  <!--============================
+  =            STYLES            =
+  =============================-->
+  
+  <link rel="stylesheet" href="styles/normalize.css"> <!-- Normalize.css -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,900&display=swap"> <!-- Google Fonts -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+  integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles/stylesheet.css"> <!-- Stylesheet -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Viewport -->
+  
+  <!--====  End of STYLES  ====-->
+
+
+  <!--=============================
+  =            FAVICON            =
+  ==============================-->
+  
+  <link rel="apple-touch-icon" sizes="76x76" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="apple-mobile-web-app-title" content="WebAgency">
+  <meta name="application-name" content="WebAgency">
+  <meta name="msapplication-TileColor" content="#2b5797">
+  <meta name="theme-color" content="#ffffff">
+  
+  <!--====  End of FAVICON  ====-->
+
+</head>
+
+<body>
+
+  <!--============================
+  =            HEADER            =
+  =============================-->
+  
+  <header class="main-header">
+    <div class="main-header-wrapper">
+      <div><img src="images/logo.png" alt="WebAgency"></div> <!-- Logo -->
+      <div><a class="fas fa-bars fa-3x responsive-menu-icon" href="#main-nav-menu"></a></div> <!-- Responsive menu icon -->
+    </div>
+    <nav id="main-nav-menu" class="main-nav-menu"> <!-- Navigation menu -->
+      <ul class="main-nav-list">
+        <li><a class="main-nav-elt" href="#home">Accueil</a></li>
+        <li><a class="main-nav-elt" href="#our-services">Services</a></li>
+        <li><a class="main-nav-elt" href="#our-projects">Portfolio</a></li>
+        <li><a class="main-nav-elt" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <!--====  End of HEADER  ====-->
+
+
+  <!--====================================
+  =            SECTION: HERO             =
+  =====================================-->
+  
+  <section id="home">
+    <div class="section-wrapper section-home-wrapper">
+      <div class="slideshow">
+        <input id="previous-slide-btn" type="radio" name="slideshow-btn" value="previous-slide" checked>
+        <input id="next-slide-btn" type="radio" name="slideshow-btn" value="next-slide">
+        <ul class="slideshow-content">
+          <li class="slide"><img src="images/slideshow/bg1.jpg" alt=""></li>
+          <li class="slide"><img src="images/slideshow/bg2.jpg" alt=""></li>
+        </ul>
+        <label class="fas fa-chevron-left" for="previous-slide-btn"></label>
+        <label class="fas fa-chevron-right" for="next-slide-btn"></label>
+        <div class="slideshow-opaque-line"></div> <!-- Opaque line under the slides -->
+        <div class="slideshow-blue-line"></div> <!-- Blue line under the slides -->
+      </div>
+      <div class="home-title-wrapper">
+        <h1 class="home-title-title"><span class="blue-marked-text">WebAgency</span>&nbsp;: L'agence de tous vos projets&nbsp;!</h1>
+        <p class="home-title-description">Vous avez un <strong>projet web</strong>&nbsp;? La <strong>WebAgency</strong> vous aide à le réaliser&nbsp;!</p>
+        <a class="btn" href="#" title="Découvrez qui nous sommes">Plus d'infos</a>
+      </div>
+    </div>
+  </section>
+  
+  <!--====  End of SECTION: HERO  ====-->
+  
+  
+  <!--============================================
+  =            SECTION: OUR SERVICES             =
+  =============================================-->
+  
+  <section id="our-services">
+    <div class="section-wrapper">
+      <h2>Nos Services</h2>
+      <div class="section-title-icon">
+        <div class="section-title-line"></div> <!-- Line under the title -->
+        <div class="section-title-blue-dot"></div> <!-- Blue dot under the title -->
+      </div>
+      <p class="section-title-description">Vous avez besoin d'un <em>site web de A à Z</em>, ou alors vous désirez une <em>refonte complète de votre site</em>&nbsp;? Notre <strong>agence web</strong> composée d'experts s’occupe de tout</p>
+      <div class="our-services-wrapper">
+        <div><img src="images/main-feature.png" alt="Ordinateur affichant un site web"></div>
+        <ul class="our-services-list">
+          <li class="our-services-item">
+            <div class="our-services-item-icon">
+              <span class="fas fa-chart-line fa-2x"></span>
+              <div class="our-services-list-blue-dot"></div> <!-- Blue dot beside the icon -->
+            </div>
+            <div class="our-services-item-text">
+              <h3><abbr title="User eXperience">UX</abbr> design</h3>
+              <p>Un site web pensé "<strong><abbr title="User eXperience">UX</abbr></strong>" est la clé pour développer une <strong>expérience utilisateur</strong> réussie et ainsi obtenir un <em>site web efficace et accessible</em>.</p>
+            </div>
+          </li>
+          <li class="our-services-item">
+            <div class="our-services-item-icon">
+              <span class="fas fa-cubes fa-2x"></span>
+              <div class="our-services-list-blue-dot"></div> <!-- Blue dot beside the icon -->
+            </div>
+            <div class="our-services-item-text">
+              <h3><abbr title="User Interface">UI</abbr> design</h3>
+              <p>Grâce à notre équipe de graphistes et d’<strong><abbr title="User Interface">UI</abbr> designers</strong>, nous vous concevons un <em>site web ergonomique et intuitif à l’utilisation</em>.</p>
+            </div>
+          </li>
+          <li class="our-services-item">
+            <div class="our-services-item-icon">
+              <span class="fas fa-chart-pie fa-2x"></span>
+              <div class="our-services-list-blue-dot"></div> <!-- Blue dot beside the icon -->
+            </div>
+            <div class="our-services-item-text">
+              <h3><abbr title="Search Engine Optimization">SEO</abbr></h3>
+              <p>À l’heure où la plupart des personnes ne consultent que la première page d’un moteur de recherche. Nous optimisons votre site web pour un <em>référencement et une visibilité optimale</em>.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  
+  <!--====  End of SECTION: OUR SERVICES  ====-->
+  
+  
+  <!--============================================
+  =            SECTION: OUR PROJECTS             =
+  =============================================-->
+  
+  <section id="our-projects">
+    <div class="section-wrapper our-projects-wrapper">
+      <h2>Nos Projets</h2>
+      <div class="section-title-icon">
+        <div class="section-title-line"></div> <!-- Line under the title -->
+        <div class="section-title-blue-dot"></div> <!-- Blue dot under the title -->
+      </div>
+      <p class="section-title-description">Sur le marché depuis seulement 2 ans, la <strong>WebAgency</strong> a contribué à développer de nombreux projets. Vous pouvez consulter notre portfolio ci-dessous</p>
+      <input type="radio" name="portfolio-category" value="all-work" id="portfolio-all-work-category" checked>
+      <input type="radio" name="portfolio-category" value="creative" id="portfolio-creative-category">
+      <input type="radio" name="portfolio-category" value="corporate" id="portfolio-corporate-category">
+      <input type="radio" name="portfolio-category" value="portfolio" id="portfolio-portfolio-category">
+      <nav class="portfolio-nav"> <!-- Portfolio menu -->
+        <ul class="portfolio-nav-list">
+          <li class="portfolio-nav-elt">
+            <label class="portfolio-nav-label" for="portfolio-all-work-category" tabindex="0">All Works</label>
+            <span class="portfolio-all-work-category-icon fas fa-sort-down fa-2x"></span>
+          </li>
+          <li class="portfolio-nav-elt">
+            <label class="portfolio-nav-label" for="portfolio-creative-category" tabindex="0">Creative</label>
+            <span class="portfolio-creative-category-icon fas fa-sort-down fa-2x"></span>
+          </li>
+          <li class="portfolio-nav-elt">
+            <label class="portfolio-nav-label" for="portfolio-corporate-category" tabindex="0">Corporate</label>
+            <span class="portfolio-corporate-category-icon fas fa-sort-down fa-2x"></span>
+          </li>
+          <li class="portfolio-nav-elt">
+            <label class="portfolio-nav-label" for="portfolio-portfolio-category" tabindex="0">Portfolio</label>
+            <span class="portfolio-portfolio-category-icon fas fa-sort-down fa-2x"></span>
+          </li>
+        </ul>
+      </nav>
+      <!-- Portfolio grid -->
+      <div class="portfolio-grid-container">
+        <figure class="portfolio-all-work-category portfolio-creative-category" title="Découvrez le site web des Détectives" tabindex="0">
+          <img src="images/portfolio/01.jpg" alt="Miniature du site web d’une agence de détectives">
+          <figcaption class="portfolio-item-text">
+            <h3 class="portfolio-item-title">Les Détectives</h3>
+            <p class="portfolio-item-description">Agence de détectives</p>
+            <span class="far fa-eye"></span> <!-- Eye icon -->
+          </figcaption>
+        </figure>
+        <figure class="portfolio-all-work-category portfolio-portfolio-category" title="Découvrez le site web de Petits Plaisirs" tabindex="0">
+          <img src="images/portfolio/02.jpg" alt="Miniature du site web d'une boutique en ligne lifestyle">
+          <figcaption class="portfolio-item-text">
+            <h3 class="portfolio-item-title">Petits Plaisirs</h3>
+            <p class="portfolio-item-description">Boutique en ligne lifestyle</p>
+            <span class="far fa-eye"></span> <!-- Eye icon -->
+          </figcaption>
+        </figure>
+        <figure class="portfolio-all-work-category portfolio-creative-category" title="Découvrez le site web de Pompadour" tabindex="0">
+          <img src="images/portfolio/03.jpg" alt="Miniature du site web d'une boutique en ligne de chaussures">
+          <figcaption class="portfolio-item-text">
+            <h3 class="portfolio-item-title">Pompadour</h3>
+            <p class="portfolio-item-description">Boutique en ligne de chaussures</p>
+            <span class="far fa-eye"></span> <!-- Eye icon -->
+          </figcaption>
+        </figure>
+        <figure class="portfolio-all-work-category portfolio-corporate-category" title="Découvrez le site web de Designed for You" tabindex="0">
+          <img src="images/portfolio/04.jpg" alt="Miniature du site web d’un cabinet d’architecture">
+          <figcaption class="portfolio-item-text">
+            <h3 class="portfolio-item-title">Designed for You</h3>
+            <p class="portfolio-item-description">Cabinet d’architecture</p>
+            <span class="far fa-eye"></span> <!-- Eye icon -->
+          </figcaption>
+        </figure>
+        <figure class="portfolio-all-work-category portfolio-corporate-category" title="Découvrez le site web de Good Clothes" tabindex="0">
+          <img src="images/portfolio/05.jpg" alt="Miniature du site web d'une boutique en ligne de vêtements">
+          <figcaption class="portfolio-item-text">
+            <h3 class="portfolio-item-title">Good Clothes</h3>
+            <p class="portfolio-item-description">Boutique en ligne de vêtements</p>
+            <span class="far fa-eye"></span> <!-- Eye icon -->
+          </figcaption>
+        </figure>
+        <figure class="portfolio-all-work-category portfolio-creative-category" title="Découvrez le site web Bon voyage" tabindex="0">
+          <img src="images/portfolio/06.jpg" alt="Miniature du site web d'une agence de voyage en ligne">
+          <figcaption class="portfolio-item-text">
+            <h3 class="portfolio-item-title">Bon voyage</h3>
+            <p class="portfolio-item-description">Agence de voyage en ligne</p>
+            <span class="far fa-eye"></span> <!-- Eye icon -->
+          </figcaption>
+        </figure>
+        <figure class="portfolio-all-work-category portfolio-corporate-category" title="Découvrez le site web de Star Colonizers" tabindex="0">
+          <img src="images/portfolio/07.jpg" alt="Miniature du site web d’un constructeur de fusées">
+          <figcaption class="portfolio-item-text">
+            <h3 class="portfolio-item-title">Star Colonizers</h3>
+            <p class="portfolio-item-description">Constructeur de fusées</p>
+            <span class="far fa-eye"></span> <!-- Eye icon -->
+          </figcaption>
+        </figure>
+        <figure class="portfolio-all-work-category portfolio-portfolio-category" title="Découvrez le site web de Easy Job" tabindex="0">
+          <img src="images/portfolio/08.jpg" alt="Miniature du site web d'un réseau social professionnel">
+          <figcaption class="portfolio-item-text">
+            <h3 class="portfolio-item-title">Easy Job</h3>
+            <p class="portfolio-item-description">Réseau social professionnel</p>
+            <span class="far fa-eye"></span> <!-- Eye icon -->
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+  
+  <!--====  End of SECTION: OUR PROJECTS  ====-->
+  
+
+  <!--============================
+  =            FOOTER            =
+  =============================-->
+  
+  <footer id="contact">
+    <div class="footer-wrapper">
+      <div class="contact-form-wrapper">
+        <h2 class="footer-title">Contact Info</h2>
+        <address class="contact-address">
+          <span class="bold-marked-text">WebAgency SAS</span><br>
+          25 Rue d'Hauteville 75010 Paris<br>
+          <abbr title="Telephone">Tel</abbr> : 01 02 03 04 05
+        </address>
+        <form class="contact-form" method="post" action="#"> <!-- Contact form -->
+          <label class="visually-hidden" for="contact-form-name">Nom</label>
+          <input id="contact-form-name" class="contact-form-entry" type="text" name="name" placeholder="Name" required>
+          <label class="visually-hidden" for="contact-form-email">E-mail</label>
+          <input id="contact-form-email" class="contact-form-entry" type="email" name="email" placeholder="Email" required>
+          <label class="visually-hidden" for="contact-form-subject">Sujet</label>
+          <input id="contact-form-subject" class="contact-form-entry" type="text" name="subject" placeholder="Subject" required>
+          <label class="visually-hidden" for="contact-form-message">Message</label>
+          <textarea id="contact-form-message" class="contact-form-entry" name="message" placeholder="Message" rows="7" required></textarea>
+          <input class="contact-form-entry btn" type="submit" value="Send Message">
+        </form>
+      </div>
+      <div class="interactive-map-wrapper">
+        <iframe class="interactive-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.2214246079798!2d2.3476369150880205!3d48.873055307629!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e145ccb3091%3A0x9495beee8c96ec27!2s25+Rue+d&#39;Hauteville%2C+75010+Paris!5e0!3m2!1sfr!2sfr!4v1556490416329!5m2!1sfr!2sfr" allowfullscreen></iframe> <!-- Interactive map -->
+        <div class="map-blue-filter"></div> <!-- Blue filter on the map -->
+      </div>
+    </div>
+  </footer>
+  
+  <!--====  End of FOOTER  ====-->
+  
+</body>
+</html>
